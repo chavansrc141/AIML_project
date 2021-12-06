@@ -17,7 +17,7 @@ def home():
 
 @app.route('/index')
 def run_script():
-    file = open(r'D:/AI_ML/AIML_project-main/attendance.py', 'r').read()
+    file = open(r'C:\collegeSPIT\SEM5\AIML\face_recognition_attendance\face_recognition\AIML_project\attendance.py', 'r').read()
     exec(file)
     return render_template('index.html')
 
